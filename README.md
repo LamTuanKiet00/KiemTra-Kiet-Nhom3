@@ -1,61 +1,28 @@
-# Simple Web Interface
+# Ứng Dụng Web Thương Mại
 
-## Description
+## Mô Tả
 
-This repository contains a simple web interface built using HTML and CSS. The interface includes basic features such as a header, navigation bar, main content area, and footer.
+Repository này chứa mã nguồn cho một ứng dụng Web Thương Mại được xây dựng bằng HTML và CSS. Ứng dụng cung cấp một nền tảng cho việc mua sắm trực tuyến, cho phép người dùng duyệt qua các sản phẩm, thêm chúng vào giỏ hàng và hoàn thành việc mua hàng một cách an toàn.
 
-## Features
+## Tính Năng
 
-- **Header**: The header section contains the title or logo of the website.
-- **Navigation Bar**: The navigation bar provides links to different sections or pages of the website.
-- **Main Content Area**: This is where the main content of the website is displayed.
-- **Footer**: The footer section typically contains copyright information, contact details, and links to social media.
+- **Danh Mục Sản Phẩm:** Hiển thị một loạt các sản phẩm với các chi tiết như tên, mô tả, giá cả và hình ảnh.
+- **Xác Thực Người Dùng:** Cho phép người dùng đăng ký, đăng nhập và quản lý tài khoản của họ một cách an toàn.
+- **Giỏ Hàng:** Cho phép người dùng thêm sản phẩm vào giỏ hàng, cập nhật số lượng và tiến hành thanh toán.
+- **Quy Trình Thanh Toán:** Hướng dẫn người dùng thông qua quy trình thanh toán một cách mượt mà, bao gồm thông tin thanh toán và vận chuyển.
+- **Quản Lý Đơn Hàng:** Cung cấp cho người dùng khả năng xem lịch sử đơn hàng và theo dõi trạng thái của đơn hàng.
+- **Thiết Kế Đáp Ứng:** Đảm bảo trải nghiệm người dùng nhất quán trên các thiết bị khác nhau, bao gồm desktop, máy tính bảng và điện thoại thông minh.
 
-## Usage
+## Công Nghệ Sử Dụng
 
-### HTML Structure
+- **HTML:** Ngôn ngữ đánh dấu cho việc cấu trúc trang web.
+- **CSS:** Ngôn ngữ trang trí cho việc thiết kế bố cục và giao diện của trang web.
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Web Interface</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>My Website</h1>
-    </header>
-    
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <main>
-        <section id="home">
-            <h2>Welcome to My Website!</h2>
-            <p>This is the homepage of my simple web interface.</p>
-        </section>
-        
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Learn more about our company and mission.</p>
-        </section>
-        
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Get in touch with us via email or phone.</p>
-        </section>
-    </main>
-    
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+## Bắt Đầu
+
+Để chạy ứng dụng này trên máy tính của bạn, làm theo các bước sau:
+
+1. Clone repository này về máy tính của bạn.
+2. Mở file `index.html` trong trình duyệt web của bạn.
+3. Khám phá các trang và tính năng khác nhau của ứng dụng.
+
